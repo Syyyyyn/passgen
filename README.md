@@ -5,23 +5,19 @@ Command-line password generator
 
 ### Installation
 
-You can download the binaries by clicking this [link]().
-
-Or you can clone the repository to your local machine :
+Download the binaries by clicking [this link](https://github.com/Syyyyyn/passgen/archive/main.zip) or clone the repository to your local machine and move `./passgen` to your `$PATH` :
 
 ```
 $ git clone https://github.com/Syyyyyn/passgen.git
+$ cd passgen/
+$ mv passgen /usr/local/bin/
 ```
 
-Move the binaries to a directory inside your `$PATH`, which you can check by running :
+### Features
 
-```
-$ echo $PATH
-```
+#### Quick use
 
-### Feature
-
-By default, `passgen` will output a low-compexity 12-characters long password :
+By default, `passgen` will output a low-compexity 12-characters long password:
 
 ```
 $ passgen
@@ -29,7 +25,9 @@ $ passgen
 49ANxJEu2F
 ```
 
-You can specify the length of the output string :
+#### Custom length password
+
+You can specify the length of the output string:
 
 ```
 $ passgen 16
@@ -37,7 +35,9 @@ $ passgen 16
 p4CkL59t7GKORH9
 ```
 
-You can also enhance the complexity by adding the `-c` parameter, which adds special character to the output string :
+#### Increase complexity
+
+You can also enhance the complexity by adding the `-c` parameter, which adds special character to the output string:
 
 ```
 $ passgen -c 16

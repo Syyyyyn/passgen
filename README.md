@@ -45,6 +45,6 @@ $ passgen -c 16
 &)@x8[K5s4lgq9rv
 ```
 
-## Licence
+## License
 
 This software is under [GNU General Public License v3.0](https://opensource.org/licenses/GPL-3.0).
